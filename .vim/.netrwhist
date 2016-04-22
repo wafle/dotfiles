@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/janosmaginecz/Dropbox/bme/csi/517-csi-base'
+let g:netrw_dirhist_2='/Users/janosmaginecz/Dropbox/bme/onlab/trainbenchmark/models'
+let g:netrw_dirhist_3='/Users/janosmaginecz/Dropbox/bme/onlab/trainbenchmark'
+let g:netrw_dirhist_4='/Users/janosmaginecz/Dropbox/bme/onlab/benchmarkResults'
+let g:netrw_dirhist_5='/Users/janosmaginecz/Dropbox/bme/onlab/incquery-ds'
+let g:netrw_dirhist_6='/Users/janosmaginecz/Dropbox/bme/EAGLE/EAGLE/Input/Dummy Janos 2'

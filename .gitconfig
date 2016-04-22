@@ -1,0 +1,18 @@
+[core]
+	excludesfile = /Users/janosmaginecz/.gitignore_global
+	autocrlf = false
+	editor = vim
+[user]
+	name = János Maginecz
+	email = wafleeee@gmail.com
+[push]
+    default = current
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+[alias]
+    s = status
+    cm = commit
