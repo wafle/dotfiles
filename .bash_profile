@@ -17,3 +17,6 @@ ressh() { nohup ~/dotfiles/bin/ressh_loop $1 & }
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+alias 'gr'='cd `git rev-parse --show-toplevel`'
+alias 'killalldocker'='docker rm -f $(docker ps -a -q)'
+
