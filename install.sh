@@ -8,3 +8,6 @@ do
         fi
     ln -s -f $fname $old
 done
+
+#source .bash_profile from .bashrc
+echo "source '$HOME/.bash_profile'" >> "$HOME/.bashrc"
