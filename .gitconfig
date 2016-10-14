@@ -1,10 +1,9 @@
 [core]
-	excludesfile = /Users/janosmaginecz/.gitignore_global
-	autocrlf = false
-	editor = vim
+    autocrlf = false
+    editor = vim
 [user]
-	name = János Maginecz
-	email = wafleeee@gmail.com
+    name = János Maginecz
+    email = wafleeee@gmail.com
 [push]
     default = current
 [color]
@@ -16,3 +15,9 @@
 [alias]
     s = status
     cm = commit
+    pushf = "push --force-with-lease"
+    d = "diff --color-words"
+[help]
+    autocorrect = 5
+[rerere]
+    enabled = true
