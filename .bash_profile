@@ -8,6 +8,7 @@ alias ll="ls -lhA"
 alias l="ls"
 
 ressh() { nohup ~/dotfiles/bin/ressh_loop $1 & }
+wif() { (git ls-files *$1 || find . -name *$1) 2>/dev/null | head -n 1 ; }
 
 # MacPorts Installer addition on 2016-03-14_at_23:34:19: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
