@@ -17,3 +17,5 @@ alias gt=git
 alias it=git
 
 export PYTHONSTARTUP="$HOME/dotfiles/startup.py"
+
+export PS1="\t \u@\h:\w\\$ "
