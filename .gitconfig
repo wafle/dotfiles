@@ -19,7 +19,10 @@
     cm = commit
     pushf = "push --force-with-lease"
     d = "diff --color-words"
+    undo = "git reset --hard HEAD@{1}"
 [help]
     autocorrect = 5
 [rerere]
-    enabled = true
+    enabled = false
+[commit]
+	gpgsign = true
