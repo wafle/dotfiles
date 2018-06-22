@@ -15,3 +15,5 @@ alias 'killalldocker'='docker rm -f $(docker ps -a -q)'
 
 alias gt=git
 alias it=git
+
+export PYTHONSTARTUP="$HOME/dotfiles/startup.py"
