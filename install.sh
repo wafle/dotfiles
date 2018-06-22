@@ -10,4 +10,4 @@ do
 done
 
 #source .bash_profile from .bashrc
-echo "source '$HOME/.bash_profile'" >> "$HOME/.bashrc"
+echo "source '`pwd/bash_extras.sh`'" >> "$HOME/.bashrc"
