@@ -1,6 +1,6 @@
 [core]
     autocrlf = false
-    editor = vim
+    editor = vim -c 'startinsert'
 [user]
     name = János Maginecz
     email = wafleeee@gmail.com
