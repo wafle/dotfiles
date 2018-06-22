@@ -13,3 +13,5 @@ wif() { (git ls-files *$1 || find . -name *$1) 2>/dev/null | head -n 1 ; }
 alias 'gr'='cd `git rev-parse --show-toplevel`'
 alias 'killalldocker'='docker rm -f $(docker ps -a -q)'
 
+alias gt=git
+alias it=git
