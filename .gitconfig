@@ -4,6 +4,8 @@
 [user]
     name = János Maginecz
     email = wafleeee@gmail.com
+[pull]
+    default = current
 [push]
     default = current
 [color]
