@@ -1,1 +1,1 @@
-/Users/janosmaginecz/dotfiles//.vim/.vim
+/home/jano/dotfiles/.vim/.vim
